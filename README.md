@@ -39,3 +39,24 @@ https://massgrave.dev/troubleshoot
 Compatibilidade
 
 A compatibilidade varia conforme a versão do Windows, a edição do produto e o método utilizado. Consulte as fontes oficiais para obter os requisitos atualizados.
+
+
+Como ativar o Windows / Office / Atualizações de Segurança Estendidas (ESU)?
+Método 1 - PowerShell ❤️
+Clique no Menu Iniciar , digite PowerShelle abra-o.
+
+Copie e cole o código abaixo e pressione Enter.
+
+Para Windows 8.1, 10 e 11 :
+irm https://get.activated.win | iex
+Se o link acima estiver bloqueado (pelo seu provedor de internet/DNS), tente isto (requer Windows 10 ou 11 atualizado):
+iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win | Out-String)
+O script não está sendo executado? Use o Método 2 listado abaixo.
+No menu que aparece, digite o número correspondente a uma das opções em verde .
+
+Método 2 - Tradicional (Windows Vista e posterior)
+Baixe o roteiro:
+MAS_AIO.cmd (Script direto)
+MAS_AIO.zip (Caso o script direto esteja bloqueado pelo seu navegador)
+Execute o MAS_AIO.cmdarquivo.
+No menu que aparece, digite o número correspondente a uma das opções em verde .
